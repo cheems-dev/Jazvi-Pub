@@ -1,0 +1,41 @@
+.navbar {
+  background: linear-gradient(40deg, rgba(0, 0, 0, 0.3), rgba(84, 1, 139, 0.3));
+}
+.navbar:not(.top-nav-collapse) {
+  background: transparent;
+}
+.navbar .navbar-brand img {
+  height: 40px;
+  margin: 10px;
+}
+.hm-gradient {
+  background: linear-gradient(40deg, rgba(0, 0, 0, 0.3), rgba(84, 1, 139, 0.3));
+}
+.heading {
+  margin: 0 6rem;
+  font-weight: 600;
+  color: #5d4267;
+}
+.subheading {
+  margin: 2.5rem 6rem;
+  color: #bcb2c0;
+}
+.btn.btn-margin {
+  margin-left: 6rem;
+  margin-top: 1rem;
+}
+.btn.btn-lily {
+  background: linear-gradient(40deg, rgba(0, 0, 0, 0.3), rgba(84, 1, 139, 0.3));
+}
+.title {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  color: #5d4267;
+}
+.subtitle {
+  color: #bcb2c0;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 6rem;
+}
+
