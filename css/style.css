@@ -39,3 +39,9 @@
   margin-bottom: 6rem;
 }
 
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
