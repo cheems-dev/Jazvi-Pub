@@ -10,11 +10,12 @@
 }
 .hm-gradient {
   background: linear-gradient(40deg, rgba(0, 0, 0, 0.3), rgba(84, 1, 139, 0.3));
+  margin-top: 10%;
 }
 .heading {
   margin: 0 6rem;
   font-weight: 600;
-  color: rgba(230, 41, 145, 0.589);
+  color: rgba(247, 231, 239, 0.74);
 }
 .subheading {
   margin: 2.5rem 6rem;
@@ -46,26 +47,58 @@
 background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  
 background: linear-gradient(to right, #4389A2, #5C258D);  */
 }
-.bienvenidos{
-  background-color: #202020;
-}
-
 body{
   background-color: #111111
 }
-
 .bienvenidos{
-  background: #1d2233;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #637075, #1d2233);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #637075, #1d2233); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-
+  background: #800a7a; 
+  background: -webkit-linear-gradient(to right, #061161, #800a7a);  
+  background: linear-gradient(to right, #061161, #800a7a); 
+  margin-bottom: 2rem;
 }
+
+#introJazvi{
+  background: #800a7a; 
+  background: -webkit-linear-gradient(to right, #061161, #800a7a);  
+  background: linear-gradient(to right, #061161, #800a7a); 
+  margin-bottom: 2rem;
+}
+
 #eventos{
   background: #800a7a;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #061161, #800a7a);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #061161, #800a7a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin-bottom: 2rem;
-   
-   
+}
+
+.card-body{
+  background-color: #111111;
+  color: white;
+}
+.img-fluid{
+  margin-top: 10%;
+}
+.cardtitle{
+  border-bottom: 3px solid #c788db;
+  color: #7b2399;
+  align-content: center;
+}
+#ubicanos{
+  color: white;
+  background-image: url('./../img/ubicanos.jpg');
+  width: 100%;
+  margin-top: 5%;
+  text-align: center;
+}
+.list-group-item{
+background-color: rgba(34, 27, 143, 0.3);
+padding: 2%;
+color: white;
+}
+#contactanos{
+  color: white;
+}
+.cardContacto{
+  background-image: url('./../img/cassete.jpg');
+  color: #3c00c8;
 }
