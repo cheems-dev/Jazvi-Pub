@@ -14,11 +14,11 @@
 .heading {
   margin: 0 6rem;
   font-weight: 600;
-  color: #5d4267;
+  color: rgba(230, 41, 145, 0.589);
 }
 .subheading {
   margin: 2.5rem 6rem;
-  color: #bcb2c0;
+  color: #e0d4e4;
 }
 .btn.btn-margin {
   margin-left: 6rem;
@@ -33,10 +33,21 @@
   color: #5d4267;
 }
 .subtitle {
-  color: #bcb2c0;
+  color: #e0d4e4;
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 6rem;
+}
+.wow{
+  color: rgb(255, 255, 255); 
+  margin-top: 10%;
+  /* A PRUEBA ESTE FONDO*/
+  /* background: #5C258D;  
+background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  
+background: linear-gradient(to right, #4389A2, #5C258D);  */
+}
+.bienvenidos{
+  background-color: #202020;
 }
 
 #map {
@@ -45,3 +56,22 @@
   background-color: grey;
 }
 
+body{
+  background-color: #111111
+}
+
+.bienvenidos{
+  background: #1d2233;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #637075, #1d2233);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #637075, #1d2233); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+#eventos{
+  background: #800a7a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061161, #800a7a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061161, #800a7a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-bottom: 2rem;
+   
+   
+}
