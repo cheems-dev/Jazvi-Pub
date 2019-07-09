@@ -18,7 +18,7 @@
   <script src="./../js/maps.js"></script>
 </head>
 
-<body>
+<body class="smooth-scroll">
   <header>
     <div class="social">
       <div id="facebook" class="mb-3">
@@ -63,7 +63,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="">
-              Fotos
+              Nuestros Eventos
             </a>
           </li>
           <li class="nav-item">
@@ -72,7 +72,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">
+            <a class="nav-link" href="#test1">
               Ubicanos
             </a>
           </li>
@@ -83,10 +83,9 @@
     <section class="view">
 
       <div class="row">
-
         <div class="col-md-6">
 
-          <div class="d-flex flex-column justify-content-baseline align-items-center h-100 wow slideInLeft slow">
+          <div class="d-flex flex-column justify-content-center align-items-center h-100 wow slideInLeft slow">
             <h1 class="heading display-3">Jazvi Pub</h1>
             <h2 class="subheading font-weight-bold text-center display-5 mb-3">"El lugar perfecto para volver a escuchar
               y recordar
@@ -107,7 +106,7 @@
         <div class="col-md-6">
 
           <div class="view">
-            <img src="./img/discoball.jpg" class="img-fluid"
+            <img src="./img/discoballe.jpg" class="img-fluid"
               alt="El lugar perfecto en Arequipa para volver a escuchar y recordar aquellas canciones que marcaron tu vida">
             <div class="mask flex-center hm-gradient">
             </div>
@@ -121,12 +120,12 @@
 
   </header>
 
-  <main class="container mb-5">
-    <section class="bienvenidos mb-5">
+  <main class="container mb-5 mt-5">
+    <section class="bienvenidos mb-5 white-text">
       <div class="wow slideInUp">
 
-        <h3 class="h1-responsive font-weight-bold my-5 text-center">Bienvenido</h3>
-        <p class="w-responsive mx-auto text-justify">
+        <h3 class="h1-responsive font-weight-bold my-5 text-center ">Bienvenido</h3>
+        <p class="w-responsive mx-auto text-justify ">
           En Jazvi Pub, no somos de modas pasajeras, nuestro estilo principalmente se inspira en la música rock, pop,
           techno, new wave, merengue, reggae, etc. Éstas tendencias son una parte de nuestra naturaleza y por la que
           queremos ser identificados, tenemos todas aquellas canciones que en algún momento deseabas grabar en tu
@@ -147,13 +146,208 @@
           </spam>
         </div>
       </div>
-
-
-
     </section>
 
+    <!-- carousel eventos -->
+    <div id="eventos">
+      <section class="white-text">
+        <div class="wow slideInUp slow">
+          <h1 class="text-center  "><i class="fas fa-calendar-day"></i> Nuestros Eventos</h1>
+          <p class=" w-responsive mx-auto text-justify">
+            Te invitamos a disfrutar de toda aquella música que fue parte de tu juventud de tus grandes artistas
+            favoritos. No faltes a esta cita con los éxitos que ya conoces, entérate sobre cada uno de nuestros eventos
+            y no te pierdas de la próxima fecha, visita nuestras redes sociales: Jazvi Pub.
+          </p>
+        </div>
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-fade carousel-multi-item text-center"
+          data-ride="carousel">
+
+          <!--Controls-->
+          <div class="controls-top">
+            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+                class="fas fa-chevron-right"></i></a>
+          </div>
+          <!--/.Controls-->
+
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+            <li data-target="#multi-item-example" data-slide-to="1"></li>
+
+          </ol>
+          <!--/.Indicators-->
+
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+
+            <!--First slide-->
+            <div class="carousel-item active">
+              <div class="card-deck">
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Nuestras Fiestas</h4>
+                      <p class="card-text">Revisa a continuación la temática de nuestros eventos, te traemos esta
+                        variedad según tu preferencia todos inician desde las 6 p.m.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Fiesta Rock 70s & 80s</h4>
+                      <p class="card-text">Disfruta de los mejores éxitos los más destacados artistas y grupos del rock,
+                        pop, disco, new wave, hard rock y más, en una noche llena de diversión.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Fiesta Techno 80s & 90s</h4>
+                      <p class="card-text">Una noche llena de aquellos hits de los ritmos italo, techno dance, reggae,
+                        hip hop y rap con las mezclas en vivo de DJ Rafo y DJ Hotter.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.First slide-->
+
+            <!--Second slide-->
+            <div class="carousel-item">
+              <div class="card-deck">
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Fiesta Viaje al Pasado</h4>
+                      <p class="card-text">Una selección de música variada de los 70s, 80s y 90s con lo mejor del
+                        merengue, rock, disco, pop, techno, reggae y demás canciones de esas épocas. </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Noche de Baladitas</h4>
+                      <p class="card-text">Una cita con aquellos lentos en inglés y español de los 70s & 80s que
+                        marcaron tu juventud, junto con un Especial de música disco</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">¿Próximo evento?</h4>
+                      <p class="card-text">Visita nuestras Redes Sociales y entérate de la próxima fecha</p>
+                      <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.Second slide-->
+          </div>
+          <!--/.Slides-->
+
+        </div>
+        <!--/.Carousel Wrapper-->
+      </section>
+      <br>
+      <section class="white-text">
+        <div class="wow slideInUp slow mb-5">
+          <h1 class="text-center"><i class="fas fa-camera-retro"></i> Galería</h1>
+          <p class="w-responsive mx-auto text-center">
+            Puedes encontrar las fotos de eventos pasados y de nuestro local aquí:
+          </p>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+
+          <div class="col-md-6 col-xl-5 mb-4">
+            <div class="view overlay rounded z-depth-2 wow slideInUp slow">
+              <img src="https://placehold.it/1200x1000" class="img-fluid" alt="Sample project image">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <div class="card-body pb-md-1 wow slideInUp slow">
+              <h4 class="font-weight-bold mb-3 text-center">Fiesta Rock 80s & 70s 2019</h4>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-5 mb-4">
+            <div class="view overlay rounded z-depth-2 wow slideInUp slow">
+              <img src="https://placehold.it/1200x1000" class="img-fluid" alt="Sample project image">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <div class="card-body pb-md-1 wow slideInUp slow">
+              <h4 class="font-weight-bold mb-3 text-center">Fiesta Noche de Baladitas 2019</h4>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row d-flex justify-content-center">
+
+          <div class="col-md-6 col-xl-5 mb-4">
+            <div class="view overlay rounded z-depth-2 wow slideInUp slow">
+              <img src="https://placehold.it/1200x1000" class="img-fluid" alt="Sample project image">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <div class="card-body pb-md-1 wow slideInUp slow">
+
+              <h4 class="font-weight-bold mb-3 text-center">Fiesta Techno 80s & 90s 2019</h4>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-5">
+            <div class="view overlay rounded z-depth-2 wow slideInUp slow">
+              <img src="https://placehold.it/1200x1000" class="img-fluid" alt="Sample project image">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <div class="card-body pb-md-1 wow slideInUp slow">
+              <h4 class="font-weight-bold mb-3 text-center">Fiesta Viaje al Pasado 70s, 80s, 90s</h4>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+    <!-- fin carousel eventos -->
+    <br>
     <!-- ubicanos -->
-    <section>
+    <section id="ubicanos test">
       <!-- maps -->
       <h3 class="h1-responsive font-weight-bold my-0 text-center">Ubicanos</h3>
       <div class="row  justify-content-center mt-0">
@@ -161,10 +355,11 @@
           <div class="list-group mb-3 mt-2 wow slideInLeft slow">
             <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
               <div class="d-flex w-100 justify-content-between">
-                <h3 class="mb-1">Dirección</h3>
+                <h3 class="cardtitle mb-1"><strong>Dirección</strong></h3>
               </div>
               <p class="mb-1">
-                Prolongación Mariscal Castilla 2006, Paucarpata
+              Prolongación Av. Mariscal Castilla 2006, Paucarpata
+                Referencia: Pasando 2 cuadras del Puente Santa Rosa
               </p>
               <small>Arequipa</small>
             </a>
@@ -172,7 +367,7 @@
           <div class="list-group wow slideInLeft slow ">
             <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
               <div class="d-flex w-100 justify-content-between">
-                <h3 class="mb-1">Horario de Atención</h3>
+                <h3 class="cardtitle mb-1">Horario de Atención</h3>
               </div>
               <p class="mb-1">
                 Viernes, Sábados y Domingos desde las 6 P.M.
@@ -193,29 +388,29 @@
       <!-- maps -->
     </section>
     <!-- ubicanos -->
-
+    <br>
+    <br>
     <!-- formualrio -->
-    <section>
-      <h3 class="h1-responsive font-weight-bold my-0 text-center">Contactanos</h3>
+    <section id="contactanos">
+      <h3 class="h1-responsive font-weight-bold my-1 text-center">Contáctanos</h3>
       <div class="row d-flex justify-content-center ">
 
-        <div class="col-md-12 col-xl-6 mb-4 wow slideInUp">
+        <div class="col-md-12 col-xl-6 mb-1 wow slideInUp">
           <!-- Material form login -->
           <div class="card">
-            <div class="card card-image"
-              style="background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(7).jpg');">
-              <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
+            <div class="cardContacto card-image">
+              <div class="text-white rgba-blue-light py-5 px-5 z-depth-4">
 
-                <h5 class="card-header info-color white-text text-center py-4">
-                  <strong>Sign in</strong>
+                <h5 class="mdb-color mdb-text text-center py-4">
+                  <strong>Escríbenos un Mensaje</strong>
                 </h5>
 
                 <!--Card content-->
-                <div class="card-body px-lg-5 pt-0">
+                <div class="px-lg-5 pt-0">
 
                   <!-- Form -->
-                  <form class="text-center" style="color: #757575;" action="https://formspree.io/daprimovaria@outlook.com"
-                    method="POST">
+                  <form class="text-center purple-text" style="color: #3c00c8;"
+                    action="https://formspree.io/daprimovaria@outlook.com" method="POST">
                     <!-- Nombres y apellidos -->
                     <div class="md-form mb-5">
                       <input type="text" id="Form-name3" class="form-control validate white-text" type="text"
@@ -225,19 +420,19 @@
 
                     <!-- Email -->
                     <div class="md-form">
-                      <input type="email" id="materialLoginFormEmail" class="form-control" name ="Email">
+                      <input type="email" id="materialLoginFormEmail" class="form-control white-text" name="Email">
                       <label for="materialLoginFormEmail">E-mail</label>
                     </div>
                     <!-- Menaje -->
-                    <div class="form-group purple-border  mb-5">
+                    <div class="form-group mdb-border mb-5">
                       <label for="exampleFormControlTextarea4">Mensaje</label>
                       <textarea class="form-control" id="exampleFormControlTextarea4" rows="6" type="text"
-                        name="Mensaje"></textarea>
+                        name="Mensaje" style="background-color: #6436cf69"></textarea>
                     </div>
 
                     <!-- Sign in button -->
-                    <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0"
-                      type="submit" value="Send">Enviar</button>
+                    <button class="btn btn-outline-purple btn-block my-4 waves-effect z-depth-1 btn-rounded"  type="submit"
+                      value="Send">Enviar</button>
 
                   </form>
                   <!-- Form -->
@@ -254,9 +449,8 @@
     </section>
 
     <!-- formualrio -->
-
   </main>
-
+  <br>
   <footer class=" container-fluid page-footer font-small elegant-color-dark pt-3 wow slideInUp slow">
 
     <div class="container text-center text-md-left mt-3">
