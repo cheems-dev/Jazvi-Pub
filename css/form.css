@@ -63,7 +63,7 @@
     border-bottom: none;
 }
 
-.purple-border textarea {
+#exampleFormControlTextarea4 {
   border: 1px solid #ba68c8;
 }
 .purple-border .form-control:focus {
@@ -72,4 +72,7 @@
 }
 .md-form{
   color: #3c00c8;
+}
+.form-group{
+  color: white;
 }
