@@ -16,81 +16,95 @@
   <link href="./css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/social.css">
   <script src="./../js/maps.js"></script>
+  <!-- galeria -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+    integrity="sha256-PZLhE6wwMbg4AB3d35ZdBF9HD/dI/y4RazA3iRDurss=" crossorigin="anonymous" />
 </head>
 
-<body class="smooth-scroll">
-  <header>
-    <div class="social">
-      <div id="facebook" class="mb-3">
-        <a href="https://web.facebook.com/JazviPub" target="_blank"><i class="fab fa-facebook-f"></i></a>
+<body>
+  <div id="contenedor">
+    <header>
+      <div class="social">
+        <div id="facebook" class="mb-3">
+          <a href="https://web.facebook.com/JazviPub" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+
+        <div id="instagram" class="mb-3">
+          <a href="https://www.instagram.com/jazvipub?!gshid=1pphrgoebl7mg" target="_blank"><i
+              class="fab fa-instagram"></i></a>
+        </div>
+
+        <div id="contact" class="mb-4">
+          <a href="./pages/contactanos.html">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </div>
+
+        <div id="whatsapp" class="mb-3">
+          <a href="https://api.whatsapp.com/send?phone= 51922203056&text=Buenas,%20quiero%20informacion"
+            target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+
       </div>
 
-      <div id="instagram" class="mb-3">
-        <a href="https://www.instagram.com/jazvipub?!gshid=1pphrgoebl7mg" target="_blank"><i
-            class="fab fa-instagram"></i></a>
-      </div>
-
-      <div id="contact" class="mb-3">
-        <a href="./pages/contactanos.html">
-          <i class="fa fa-envelope"></i>
+      <nav class="navbar navbar-expand-lg scrolling-navbar navbar-dark z-depth-0 fixed-top">
+        <a class="navbar-brand" href="#">
+          <!-- imagen -->
+          <img src="./img/logojazvi.png" height="35" class="animated bounce infinite">
+          <!-- imagen -->
         </a>
-      </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+          aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link scroll" href="#inicio">
+                Inicio
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#bienvenido">
+                Nosotros
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#eventos">
+                Eventos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#galeria">
+                Galería
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#ubicanos">
+                Ubícanos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#contactanos">
+                Contáctanos
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-      <div id="whatsapp" class="mb-3">
-        <a href="https://api.whatsapp.com/send?phone=51922203056&text=Buenas,%20quiero%20informacion" target="_blank">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </div>
+      <section class="view" id="inicio">
 
-    </div>
-
-    <nav class="navbar navbar-expand-lg scrolling-navbar navbar-dark z-depth-0 fixed-top">
-      <a class="navbar-brand" href="#">
-        <!-- imagen -->
-        <img src="./img/logojazvi.png" height="35" >
-        <!-- imagen -->
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
-        aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Inicio
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">
-              Nuestros Eventos
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">
-              Contactanos
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#test1">
-              Ubicanos
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <section class="view">
-
-      <div class="row">
-        <div class="col-md-6">
-
-          <div class="d-flex flex-column justify-content-center align-items-center h-100 wow slideInLeft slow">
-            <h1 class="heading display-3">Jazvi Pub</h1>
-            <h2 class="subheading font-weight-bold text-center display-5 mb-3">"El lugar perfecto para volver a escuchar
-              y recordar
-              aquellas canciones que marcaron tu vida"</h2>
-            <!-- <div class="list-group">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="d-flex flex-column justify-content-center align-items-center wow slideInLeft slow"
+              id="introJazvi">
+              <h1 class="heading display-2">Jazvi Pub</h1>
+              <h3 class="subheading font-weight-bold text-center display-6 mb-3">"El lugar perfecto para volver a escuchar y recordar
+                aquellas canciones que marcaron tu vida"</h3>
+              <!-- <div class="list-group">
               <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
                   <h3 class="mb-1">Horario de Atención</h3>
@@ -100,409 +114,469 @@
                 </p>
               </a>
             </div> -->
-          </div>
-        </div>
-
-        <div class="col-md-6">
-
-          <div class="view">
-            <img src="./img/discoballe.jpg" class="img-fluid"
-              alt="El lugar perfecto en Arequipa para volver a escuchar y recordar aquellas canciones que marcaron tu vida">
-            <div class="mask flex-center hm-gradient">
             </div>
           </div>
 
-        </div>
+          <div class="col-md-6">
 
-      </div>
-
-    </section>
-
-  </header>
-
-  <main class="container mb-5 mt-5">
-    <section class="bienvenidos mb-5 white-text">
-      <div class="wow slideInUp">
-
-        <h3 class="h1-responsive font-weight-bold my-5 text-center ">Bienvenido</h3>
-        <p class="w-responsive mx-auto text-justify ">
-          En Jazvi Pub, no somos de modas pasajeras, nuestro estilo principalmente se inspira en la música rock, pop,
-          techno, new wave, merengue, reggae, etc. Éstas tendencias son una parte de nuestra naturaleza y por la que
-          queremos ser identificados, tenemos todas aquellas canciones que en algún momento deseabas grabar en tu
-          cassette y esperabas con los dedos cruzados que el locutor no hablara en medio de la canción para poder
-          agregarlas a tu colección. Hoy en día puedes revivir aquellos momentos y pasar tiempo con tus amigos, con las
-          mejores bebidas, notable entretenimiento y un ambiente totalmente inspirado en la onda retro de los 70s, 80s y
-          90s.
-
-        </p>
-        <div class="text-right  w-responsive mx-auto">
-          <spam class="mb-0">
-            Recordar es volver a vivir
-            <footer class="blockquote-footer mb-3">
-              <cite title="Jazvi Pub">
-                Jazvi Pub
-              </cite>
-            </footer>
-          </spam>
-        </div>
-      </div>
-    </section>
-
-    <!-- carousel eventos -->
-    <div id="eventos">
-      <section class="white-text">
-        <div class="wow slideInUp slow">
-          <h1 class="text-center  "><i class="fas fa-calendar-day"></i> Nuestros Eventos</h1>
-          <p class=" w-responsive mx-auto text-justify">
-            Te invitamos a disfrutar de toda aquella música que fue parte de tu juventud de tus grandes artistas
-            favoritos. No faltes a esta cita con los éxitos que ya conoces, entérate sobre cada uno de nuestros eventos
-            y no te pierdas de la próxima fecha, visita nuestras redes sociales: Jazvi Pub.
-          </p>
-        </div>
-        <!--Carousel Wrapper-->
-        <div id="multi-item-example" class="carousel slide carousel-fade carousel-multi-item text-center"
-          data-ride="carousel">
-
-          <!--Controls-->
-          <div class="controls-top">
-            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
-            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
-                class="fas fa-chevron-right"></i></a>
-          </div>
-          <!--/.Controls-->
-
-          <!--Indicators-->
-          <ol class="carousel-indicators">
-            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-            <li data-target="#multi-item-example" data-slide-to="1"></li>
-
-          </ol>
-          <!--/.Indicators-->
-
-          <!--Slides-->
-          <div class="carousel-inner" role="listbox">
-
-            <!--First slide-->
-            <div class="carousel-item active">
-              <div class="card-deck">
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <img class="card-img-top"
-                      src="./img/EVENTOS.jpg"
-                      alt="Nuestros Eventos">
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <img class="card-img-top"
-                      src="./img/FIESTA-ROCK.jpg"
-                      alt="Fiesta Rock 70s y 80s">
-                    <div class="card-body">
-                      <h4 class="card-title">Fiesta Rock 70s & 80s</h4>
-                      <p class="card-text">Disfruta de los éxitos de aquellos artistas y grupos más destacados del rock,
-                        pop, disco, new wave, hard rock y más, en una noche llena de diversión.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <img class="card-img-top"
-                      src="./img/FIESTA-TECHNO.jpg"
-                      alt="Fiesta Techno 80s y 90s">
-                    <div class="card-body">
-                      <h4 class="card-title">Fiesta Techno 80s & 90s</h4>
-                      <p class="card-text">Una noche llena de aquellos hits de los ritmos italo, techno dance, reggae,
-                        hip hop y rap con las mezclas en vivo de DJ Rafo y DJ Hotter.</p>
-                    </div>
-                  </div>
-                </div>
+            <div class="view">
+              <img src="./img/discoballe.jpg" class="img-fluid w-100"
+                alt="El lugar perfecto en Arequipa para volver a escuchar y recordar aquellas canciones que marcaron tu vida">
+              <div class="mask flex-center hm-gradient">
               </div>
             </div>
-            <!--/.First slide-->
 
-            <!--Second slide-->
-            <div class="carousel-item">
-              <div class="card-deck">
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <img class="card-img-top"
-                      src="./img/viaje-pasado.jpg"
-                      alt="Fiesta Viaje al Pasado">
-                    <div class="card-body">
-                      <h4 class="card-title">Fiesta Viaje al Pasado</h4>
-                      <p class="card-text">Una selección de música variada de los 70s, 80s y 90s con lo mejor del
-                        merengue, rock, disco, pop, techno, reggae y demás canciones de esas épocas. </p>
+          </div>
+
+        </div>
+
+      </section>
+
+    </header>
+    <main class="container mb-5 mt-5">
+      <section class="bienvenidos mb-5" id="bienvenido">
+        <div class="wow slideInUp">
+
+          <h3 class="h1-responsive font-weight-bold my-5 text-center">Bienvenidos</h3>
+          <p class="w-responsive mx-auto text-justify p-4">
+            En Jazvi Pub, no somos de modas pasajeras, nuestro estilo principalmente se inspira en la música rock, pop,
+            techno, new wave, merengue, reggae, etc. Éstas tendencias son una parte de nuestra naturaleza y por la que
+            queremos ser identificados, tenemos aquellas canciones que en algún momento deseabas grabar en tu
+            cassette y esperabas con los dedos cruzados que el locutor no hablara en medio de la canción para poder
+            agregarlas a tu colección. Hoy en día puedes revivir aquellos momentos y pasar tiempo con tus amigos, con
+            las
+            mejores bebidas, notable entretenimiento y un ambiente totalmente inspirado en la onda retro de los 70s, 80s
+            y
+            90s.
+
+          </p>
+          <div class="text-right  w-responsive mx-auto">
+            <spam class="mb-0">
+              Recordar es volver a vivir
+              <footer class="blockquote-footer mb-3 white-text">
+                <cite title="Jazvi Pub">
+                  Jazvi Pub
+                </cite>
+              </footer>
+            </spam>
+          </div>
+        </div>
+      </section>
+
+      <!-- carousel eventos -->
+      <div>
+        <section id="eventos">
+          <div class="wow slideInUp slow">
+            <h1 class="text-center"><i class="fas fa-calendar-day"></i> Nuestros Eventos</h1>
+            <p class="white-text w-responsive mx-auto text-justify">
+              Te invitamos a disfrutar de toda aquella música que fue parte de tu juventud. No faltes a esta cita con
+              los éxitos que ya conoces, entérate sobre cada uno de nuestros eventos y no te pierdas de la próxima
+              fecha, visita nuestras redes sociales: Jazvi Pub.
+            </p>
+          </div>
+          <!--Carousel Wrapper-->
+          <div id="multi-item-example" class="carousel slide carousel-fade carousel-multi-item text-center"
+            data-ride="carousel">
+
+            <!--Controls-->
+            <div class="controls-top">
+              <a class="btn-floating yellow-text" href="#multi-item-example" data-slide="prev"><i
+                  class="fas fa-caret-square-left"></i></a>
+              <a class="btn-floating yellow-text" href="#multi-item-example" data-slide="next"><i
+                  class="fas fa-caret-square-right"></i></a>
+            </div>
+            <!--/.Controls-->
+
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+              <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+              <li data-target="#multi-item-example" data-slide-to="1"></li>
+            </ol>
+            <!--/.Indicators-->
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+
+              <!--First slide-->
+              <div class="carousel-item active">
+                <div class="card-deck">
+                  <div class="col-md-4">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="./img/EVENTOS.jpg" alt="Nuestros Eventos">
                     </div>
                   </div>
-                </div>
 
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <img class="card-img-top"
-                      src="./img/FIESTA-BALADAS.jpg"
-                      alt="Fiesta Noche de Baladitas">
-                    <div class="card-body">
-                      <h4 class="card-title">Noche de Baladitas</h4>
-                      <p class="card-text">Una cita con aquellos lentos en inglés y español de los 70s & 80s que
-                        marcaron tu juventud, junto con un Especial de música disco</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                      <div class="card mb-2">
-                        <img class="card-img-top"
-                          src="./img/EVENTOS3.jpg"
-                          alt="Nuestros Eventos">
+                  <div class="col-md-4">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="./img/FIESTA-ROCK.jpg" alt="Fiesta Rock 70s y 80s">
+                      <div class="card-body">
+                        <h4 class="card-title">Fiesta Rock 70s & 80s</h4>
+                        <p class="card-text">Disfruta los éxitos de artistas y grupos destacados del rock-pop, disco, new wave, hard rock y más, en una noche memorable con las mezclas de DJ Elvis y DJ Rafo.</p>
                       </div>
                     </div>
-              </div>
-            </div>
-            <!--/.Second slide-->
-          </div>
-          <!--/.Slides-->
+                  </div>
 
-        </div>
-        <!--/.Carousel Wrapper-->
-      </section>
-      <br>
-      <section class="white-text">
-        <div class="wow slideInUp slow mb-5">
-          <h1 class="text-center"><i class="fas fa-camera-retro"></i> Galería</h1>
-          <p class="w-responsive mx-auto text-center">
-            Puedes encontrar las fotos de eventos pasados y de nuestro local aquí:
-          </p>
-        </div>
-
-        <div class="row d-flex justify-content-center">
-
-          <div class="col-md-6 col-xl-5 mb-4">
-            <div class="view overlay rounded z-depth-2 wow slideInUp slow">
-              <img src="https://placehold.it/1200x1000" class="img-fluid" alt="Sample project image">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body pb-md-1 wow slideInUp slow">
-              <h4 class="font-weight-bold mb-3 text-center">Fiesta Rock 80s & 70s 2019</h4>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-5 mb-4">
-            <div class="view overlay rounded z-depth-2 wow slideInUp slow">
-              <img src="https://placehold.it/1200x1000" class="img-fluid" alt="Sample project image">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body pb-md-1 wow slideInUp slow">
-              <h4 class="font-weight-bold mb-3 text-center">Fiesta Noche de Baladitas 2019</h4>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row d-flex justify-content-center">
-
-          <div class="col-md-6 col-xl-5 mb-4">
-            <div class="view overlay rounded z-depth-2 wow slideInUp slow">
-              <img src="https://placehold.it/1200x1000" class="img-fluid" alt="Sample project image">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body pb-md-1 wow slideInUp slow">
-
-              <h4 class="font-weight-bold mb-3 text-center">Fiesta Techno 80s & 90s 2019</h4>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-5">
-            <div class="view overlay rounded z-depth-2 wow slideInUp slow">
-              <img src="https://placehold.it/1200x1000" class="img-fluid" alt="Sample project image">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body pb-md-1 wow slideInUp slow">
-              <h4 class="font-weight-bold mb-3 text-center">Fiesta Viaje al Pasado 70s, 80s, 90s</h4>
-            </div>
-          </div>
-
-        </div>
-      </section>
-    </div>
-    <!-- fin carousel eventos -->
-    <br>
-    <!-- ubicanos -->
-    <section id="ubicanos test">
-      <!-- maps -->
-      <h3 class="h1-responsive font-weight-bold my-0 text-center">Ubicanos</h3>
-      <div class="row  justify-content-center mt-0">
-        <div class="col-md-6 col-xl-6 mb-4 ">
-          <div class="list-group mb-3 mt-2 wow slideInLeft slow">
-            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-              <div class="d-flex w-100 justify-content-between">
-                <h3 class="cardtitle mb-1"><strong>Dirección</strong></h3>
-              </div>
-              <p class="mb-1">
-              Prolongación Av. Mariscal Castilla 2006, Paucarpata
-                Referencia: Pasando 2 cuadras del Puente Santa Rosa
-              </p>
-              <small>Arequipa</small>
-            </a>
-          </div>
-          <div class="list-group wow slideInLeft slow ">
-            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-              <div class="d-flex w-100 justify-content-between">
-                <h3 class="cardtitle mb-1">Horario de Atención</h3>
-              </div>
-              <p class="mb-1">
-                Viernes, Sábados y Domingos desde las 6 P.M.
-              </p>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-xl-6 mb-4 wow slideInRight">
-          <div class="view overlay zoom rounded z-depth-2">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.2498462004814!2d-71.504624885137!3d-16.412132588669866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b0d5c30e1bd%3A0xc62e15eada7e3e8e!2sJazvi+Pub!5e0!3m2!1ses-419!2spe!4v1562599327099!5m2!1ses-419!2spe"
-              width="100%" height="300" allowfullscreen></iframe>
-          </div>
-        </div>
-
-      </div>
-      <!-- maps -->
-    </section>
-    <!-- ubicanos -->
-    <br>
-    <br>
-    <!-- formualrio -->
-    <section id="contactanos">
-      <h3 class="h1-responsive font-weight-bold my-1 text-center">Contáctanos</h3>
-      <div class="row d-flex justify-content-center ">
-
-        <div class="col-md-12 col-xl-6 mb-1 wow slideInUp">
-          <!-- Material form login -->
-          <div class="card">
-            <div class="cardContacto card-image">
-              <div class="text-white rgba-blue-light py-5 px-5 z-depth-4">
-
-                <h5 class="mdb-color mdb-text text-center py-4">
-                  <strong>Escríbenos un Mensaje</strong>
-                </h5>
-
-                <!--Card content-->
-                <div class="px-lg-5 pt-0">
-
-                  <!-- Form -->
-                  <form class="text-center purple-text" style="color: #3c00c8;"
-                    action="https://formspree.io/daprimovaria@outlook.com" method="POST">
-                    <!-- Nombres y apellidos -->
-                    <div class="md-form mb-5">
-                      <input type="text" id="Form-name3" class="form-control validate white-text" type="text"
-                        name="Nombres">
-                      <label data-error="wrong" data-success="right" for="Form-name3">Nombre y Apellidos</label>
+                  <div class="col-md-4">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="./img/FIESTA-TECHNO.jpg" alt="Fiesta Techno 80s y 90s">
+                      <div class="card-body">
+                        <h4 class="card-title">Fiesta Techno 80s & 90s</h4>
+                        <p class="card-text">Una noche llena de aquellos hits de los ritmos italo, techno dance, reggae,
+                          hip hop y rap con las mezclas en vivo de DJ Rafo y DJ Hotter.</p>
+                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+              <!--/.First slide-->
 
-                    <!-- Email -->
-                    <div class="md-form">
-                      <input type="email" id="materialLoginFormEmail" class="form-control white-text" name="Email">
-                      <label for="materialLoginFormEmail">E-mail</label>
+              <!--Second slide-->
+              <div class="carousel-item">
+                <div class="card-deck">
+                  <div class="col-md-4">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="./img/viaje-pasado.jpg" alt="Fiesta Viaje al Pasado">
+                      <div class="card-body">
+                        <h4 class="card-title">Fiesta Viaje al Pasado</h4>
+                        <p class="card-text">Una selección de música variada de los 70s, 80s y 90s con lo mejor del
+                          merengue, rock, disco, pop, techno, reggae y demás canciones de esas épocas. </p>
+                      </div>
                     </div>
-                    <!-- Menaje -->
-                    <div class="form-group mdb-border mb-5">
-                      <label for="exampleFormControlTextarea4">Mensaje</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea4" rows="6" type="text"
-                        name="Mensaje" style="background-color: #6436cf69"></textarea>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="./img/FIESTA-BALADAS.jpg" alt="Fiesta Noche de Baladitas">
+                      <div class="card-body">
+                        <h4 class="card-title">Noche de Baladitas</h4>
+                        <p class="card-text">Una cita con aquellos lentos en inglés y español de los 70s & 80s que
+                          marcaron tu juventud, junto con un Especial de música disco.</p>
+                      </div>
                     </div>
+                  </div>
 
-                    <!-- Sign in button -->
-                    <button class="btn btn-outline-purple btn-block my-4 waves-effect z-depth-1 btn-rounded"  type="submit"
-                      value="Send">Enviar</button>
+                  <div class="col-md-4">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="./img/EVENTOS3.jpg" alt="Próximos Eventos">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/.Second slide-->
+            </div>
+            <!--/.Slides-->
 
-                  </form>
-                  <!-- Form -->
+          </div>
+          <!--/.Carousel Wrapper-->
+        </section>
+        <br>
 
+        <section id="galeria">
+          <div class="wow slideInUp slow mb-2">
+            <h1 class="text-center"><i class="fas fa-camera-retro"></i> Galería</h1>
+          </div>
+
+          <!-- GALERIA CON ZOOM -->
+          <div id="carousel-with-lb" class="carousel slide carousel-multi-item" data-ride="carousel">
+            <!--Controls-->
+            <div class="controls-top text-center">
+              <a class="btn-floating yellow-text" href="#carousel-with-lb" data-slide="prev"><i
+                  class="fas fa-caret-square-left"></i></a>
+              <a class="btn-floating yellow-text" href="#carousel-with-lb" data-slide="next"><i
+                  class="fas fa-caret-square-right"></i></a>
+            </div>
+            <!--/.Controls-->
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-with-lb" data-slide-to="0" class="active secondary-color"></li>
+              <li data-target="#carousel-with-lb" data-slide-to="1" class="secondary-color"></li>
+              <li data-target="#carousel-with-lb" data-slide-to="2" class="secondary-color"></li>
+            </ol>
+            <!--/.Indicators-->
+
+            <!--  -->
+            <div class="container w-100 h-100">
+              <div class="view overlay rounded z-depth-0 waw slideInUp slow">
+                <div class="row no-gutter gallerys">
+                  <div class="carousel-item active text-center">
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/IMG_0947-2.jpg" target="_blank">
+                        <img src="./img/IMG_0947-2.jpg" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/IMG_0952.jpg" target="_blank">
+                        <img src="./img/IMG_0952.jpg" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/IMG_0943.jpg" target="_blank">
+                        <img src="./img/IMG_0943.jpg" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/IMG_0965.jpg" target="_blank">
+                        <img src="./img/IMG_0965.jpg" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/IMG_0993.jpg" target="_blank">
+                        <img src="./img/IMG_0993.jpg" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/2-11.jpg" target="_blank">
+                        <img src="./img/2-11.jpg" class="img-fluid">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/clientes1.jpg" target="_blank">
+                        <img src="./img/clientes1.jpg" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/clientes2.jpg" target="_blank">
+                        <img src="./img/clientes2.jpg" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/clientes3.JPG" target="_blank">
+                        <img src="./img/clientes3.JPG" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/clientes4.JPG" target="_blank">
+                        <img src="./img/clientes4.JPG" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/clientes5.JPG" target="_blank">
+                        <img src="./img/clientes5.JPG" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/clientes6.jpg" target="_blank">
+                        <img src="./img/clientes6.jpg" class="img-fluid">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/clientes7.jpg" target="_blank">
+                        <img src="./img/clientes7.jpg" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/clientes8.JPG" target="_blank">
+                        <img src="./img/clientes8.JPG" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/clientes9.jpg" target="_blank">
+                        <img src="./img/clientes9.jpg" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/clientes10.JPG" target="_blank">
+                        <img src="./img/clientes10.JPG" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/clientes11.JPG" target="_blank">
+                        <img src="./img/clientes11.JPG" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="cold-lg-3 col-md-3 d-md-inline-block">
+                      <a href="./img/clientes12.jpg" target="_blank">
+                        <img src="./img/clientes12.jpg" class="img-fluid">
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
+            <!--  -->
           </div>
-          <!-- Material form login -->
-        </div>
+          <!-- GALERIA  CON ZOOM-->
+        </section>
       </div>
+      <!-- fin carousel eventos -->
+      <br>
+      <!-- ubicanos -->
+      <section id="ubicanos">
+        <!-- maps -->
+        <h3 class="h1-responsive font-weight-bold"><strong>Ubícanos</strong></h3>
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-xl-6 mb-2 wow slideInUp">
+            <div class="list-group mb-2 mt-2">
+              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h3 class="cardtitle mb-1"><strong>Dirección</strong></h3>
+                </div>
+                <p class="mb-1">
+                  Prolongación Av. Mariscal Castilla 2006, Paucarpata
+                  Referencia: Pasando 2 cuadras del Puente Santa Rosa
+                </p>
+                <small>Arequipa</small>
+              </a>
+            </div>
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h3 class="cardtitle mb-1">Horario de Atención</h3>
+                </div>
+                <p class="mb-1">
+                  Viernes, Sábados y Domingos desde las 6 P.M.
+                </p>
+              </a>
+            </div>
+          </div>
 
-    </section>
+          <div class="col-md-6 col-xl-6 mb-4 wow slideInUp">
+            <div class="view overlay zoom rounded z-depth-2">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.2498462004814!2d-71.504624885137!3d-16.412132588669866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b0d5c30e1bd%3A0xc62e15eada7e3e8e!2sJazvi+Pub!5e0!3m2!1ses-419!2spe!4v1562599327099!5m2!1ses-419!2spe"
+                width="100%" height="300" allowfullscreen></iframe>
+            </div>
+          </div>
 
-    <!-- formualrio -->
-  </main>
-  <br>
-  <footer class=" container-fluid page-footer font-small elegant-color-dark pt-3 wow slideInUp slow">
-
-    <div class="container text-center text-md-left mt-3">
-
-      <div class="row mt-3">
-
-        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
-
-          <h4 class="text-uppercase font-weight-bold">Jazvi Pub</h4>
-          <hr class="grey accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 50%;">
-          <p>
-            <a href="#!">Arequipa - Perú</a>
-          </p>
-          <p>
-            <a href="#!">Soporte al cliente</a>
-          </p>
-          <p>
-            <a href="#!">Terminos y condiciones</a>
-          </p>
         </div>
+        <!-- maps -->
+      </section>
+      <!-- ubicanos -->
+      <br>
+      <br>
+      <!-- formualrio -->
+      <section id="contactanos" class="text-center">
+        <h3 class="h1-responsive font-weight-bold my-1 text-center">Contáctanos</h3>
+        <div class="row d-flex justify-content-center">
 
-        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
-          <h4 class="text-uppercase font-weight-bold">Conectate</h4>
-          <hr class="grey accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 50%;">
-          <p>
-            <a href="#!">Prensa</a>
-          </p>
-          <p>
-            <a href="#!">¿Quieres invitarnos a un evento?</a>
-          </p>
-          <p>
-            <a href="#!">Servicios para empresas e instituciones</a>
-          </p>
+          <div class="col-md-6 wow slideInUp">
+            <!-- Material form login -->
+            <div class="card">
+              <div class="cardContacto card-image">
+                <div class="text-white py-3 px-4 z-depth-3">
+
+                  <h5 class="mdb-color mdb-text text-center py-4">
+                    <strong>Escríbenos un Mensaje</strong>
+                  </h5>
+
+                  <!--Card content-->
+                  <div class="px-lg-4 p-0">
+
+                    <!-- Form -->
+                    <form class="text-center white-text" style="color: #3c00c8;"
+                      action="https://formspree.io/daprimovaria@outlook.com" method="POST">
+                      <!-- Nombres y apellidos -->
+                      <div class="md-form">
+                        <input type="text" id="Form-name3" class="form-control validate white-text" type="text"
+                          name="Nombres">
+                        <label data-error="wrong" data-success="right" for="Form-name3">Nombre y Apellidos</label>
+                      </div>
+
+                      <!-- Email -->
+                      <div class="md-form">
+                        <input type="email" id="materialLoginFormEmail" class="form-control white-text" name="Email">
+                        <label for="materialLoginFormEmail">E-mail</label>
+                      </div>
+                      <!-- Menaje -->
+                      <div class="form-group mdb-border">
+                        <label for="exampleFormControlTextarea4">Mensaje</label>
+                        <textarea class="form-control white-text" id="exampleFormControlTextarea4" rows="4" type="text"
+                          name="Mensaje" style="background-color: #5aceeb69"></textarea>
+                      </div>
+                      <!-- Sign in button -->
+                      <button class="btn btn-purple btn-block my-4 waves-effect z-depth-1" type="submit"
+                        value="Send">Enviar</button>
+
+                    </form>
+                    <!-- Form -->
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- Material form login -->
+          </div>
+
+          <div class="px-lg-4 col-md-6 mb-1 wow slideInUp">
+            <div class="fb-page" data-href="https://www.facebook.com/JazviPub/" data-tabs="timeline, events"
+              data-width="400" data-small-header="false" data-hide-cover="false" data-show-facepile="false">
+              <blockquote cite="https://www.facebook.com/JazviPub/" class="fb-xfbml-parse-ignore"><a
+                  href="https://www.facebook.com/JazviPub/">Jazvi Pub</a></blockquote>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+      <!-- formualrio -->
+    </main>
+    <br>
+    <footer class=" container-fluid page-footer font-small elegant-color-dark pt-3 wow slideInUp slow">
 
-          <h4 class="text-uppercase font-weight-bold">Ubicanos</h4>
-          <hr class="grey accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 50% ;">
-          <p>
-            <!-- Enlace a Ubicanos -->
-            <a href="">
-              <i class="fas fa-home mr-3"></i>Av. Mariscal Castilla 2006, Paucarpata
-              Arequipa</p>
-          </a>
-          <p>
+      <div class="container text-center text-md-left mt-3">
+
+        <div class="row mt-3">
+
+          <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+
+            <h4 class="text-uppercase font-weight-bold">Jazvi Pub</h4>
+            <hr class="grey accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 50%;">
+            <p>
+              <a href="#!">Arequipa - Perú</a>
+            </p>
+            <p>
+              <a href="#!">Soporte al cliente</a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h4 class="text-uppercase font-weight-bold">Consultas</h4>
+            <hr class="grey accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 50%;">
+            <p>
+              <a href="#contactanos">Prensa</a>
+            </p>
+            <p>
+              <a href="#contactanos">¿Quieres invitarnos a un evento?</a>
+            </p>
+            <p>
+              <a href="#contactanos">Servicios para empresas e instituciones</a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+
+            <h4 class="text-uppercase font-weight-bold">Ubícanos</h4>
+            <hr class="grey accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 50% ;">
+            <p>
+              <!-- Enlace a Ubicanos -->
+              <a href="#ubicanos">
+                <i class="fas fa-home mr-3"></i>Av. Mariscal Castilla 2006, Paucarpata
+                Arequipa</p>
+            </a>
+            <p>
+              <i class="fas fa-phone mr-3"></i> Reservas: 922203056
+            </p>
             <p>
               <i class="fas fa-envelope mr-3"></i> jazvi.pub@gmail.com
             </p>
+          </div>
+
         </div>
 
       </div>
 
-    </div>
+      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a href="https://web.facebook.com/JazviPub">Jazvi Pub</a>
+      </div>
 
-    <div class="footer-copyright text-center py-3">© 2019 Copyright:
-      <a href="https://web.facebook.com/JazviPub">Jazvi Pub</a>
-    </div>
-
-  </footer>
-
+    </footer>
+  </div>
   <!-- SCRIPTS -->
+
   <!-- maps -->
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6wsghlEJXyxU8eKtaSzzLhtJ3UPlmRfc"></script>
@@ -517,6 +591,18 @@
   <script>
     new WOW().init();
   </script>
+  <!-- scrolling -->
+  <script src="./js/scroll.js"></script>
+  <!-- scrolling -->
+  <!-- facebook -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.3"></script>
+  <!-- facebook -->
+  <!-- galeria -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="./js/gallery.js"></script>
+  <!-- galeria -->
 </body>
 
 </html>
