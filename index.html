@@ -2,10 +2,25 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143768571-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143768571-1');
+</script>
+
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale= 1 shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Jazvi Pub</title>
+  <meta name="description" content="Bebidas y música en un ambiente temático con la onda de los 70s, 80 y 90s. El mejor lugar para escuchar aquella música del recuerdo con DJ en vivo, ambientes y seguridad garantizada">
+  <meta name="keywords" content="jazvi pub, discoteca Arequipa, bar retro, eventos Arequipa, discoteca 80s Arequipa, evento 80s arequipa, Fiesta Rock 80s, Fiesta Techno 90s, Fiesta Viaje al Pasado, Fiesta Baladitas">
+  <meta name="author" content="Jazvi Pub" />
+  <meta name="copyright" content="Jazvi Pub"/>
+  <meta name="robots" content="inicio, eventos, galeria">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -22,8 +37,10 @@
 </head>
 
 <body>
+
   <div id="contenedor">
     <header>
+      <div class="bg-image"></div>
       <div class="social">
         <div id="facebook" class="mb-3">
           <a href="https://web.facebook.com/JazviPub" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -50,44 +67,44 @@
       </div>
 
       <nav class="navbar navbar-expand-lg scrolling-navbar navbar-dark z-depth-0 fixed-top">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand pull-left hidden-sm hidden-xs" href="#">
           <!-- imagen -->
           <img src="./img/logojazvi.png" height="35" class="animated bounce infinite">
           <!-- imagen -->
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
-          aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target" type="button"
+          aria-controls="collapse_target" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+        <div class="collapse navbar-collapse" id="collapse_target">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link scroll" href="#inicio">
+            <li class="nav-item active">
+              <a class="nav-link scroll" href="#inicio"><i class="fa fa-home"></i>
                 Inicio
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link scroll" href="#bienvenido">
-                Nosotros
+                  <i class="fas fa-compact-disc"></i>Nosotros
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link scroll" href="#eventos">
-                Eventos
+                  <i class="fas fa-calendar-day"></i>Eventos
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link scroll" href="#galeria">
-                Galería
+                  <i class="fas fa-camera-retro"></i> Galería
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link scroll" href="#ubicanos">
+              <a class="nav-link scroll" href="#ubicanos"><i class="fas fa-location-arrow"></i>
                 Ubícanos
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link scroll" href="#contactanos">
+              <a class="nav-link scroll" href="#contactanos"><i class="fa fa-envelope"></i>
                 Contáctanos
               </a>
             </li>
@@ -98,12 +115,14 @@
       <section class="view" id="inicio">
 
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-8 mb-5">
             <div class="d-flex flex-column justify-content-center align-items-center wow slideInLeft slow"
               id="introJazvi">
-              <h1 class="heading display-2">Jazvi Pub</h1>
-              <h3 class="subheading font-weight-bold text-center display-6 mb-3">"El lugar perfecto para volver a escuchar y recordar
-                aquellas canciones que marcaron tu vida"</h3>
+              <p style="block-size: 300px"></p>
+              <p>
+                <h2 class="subheading font-weight-bold text-md-left yellow-text">
+                  "El lugar perfecto para volver a escuchar y recordar aquellas canciones que marcaron tu vida"</h2>
+              </p>
               <!-- <div class="list-group">
               <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
@@ -117,27 +136,18 @@
             </div>
           </div>
 
-          <div class="col-md-6">
-
-            <div class="view">
-              <img src="./img/discoballe.jpg" class="img-fluid w-100"
-                alt="El lugar perfecto en Arequipa para volver a escuchar y recordar aquellas canciones que marcaron tu vida">
-              <div class="mask flex-center hm-gradient">
-              </div>
-            </div>
-
-          </div>
 
         </div>
 
       </section>
 
     </header>
+    <br>
     <main class="container mb-5 mt-5">
       <section class="bienvenidos mb-5" id="bienvenido">
         <div class="wow slideInUp">
 
-          <h3 class="h1-responsive font-weight-bold my-5 text-center">Bienvenidos</h3>
+          <h3 class="h1-responsive font-weight-bold my-5 text-center"><i class="fas fa-compact-disc"></i> Bienvenidos</h3>
           <p class="w-responsive mx-auto text-justify p-4">
             En Jazvi Pub, no somos de modas pasajeras, nuestro estilo principalmente se inspira en la música rock, pop,
             techno, new wave, merengue, reggae, etc. Éstas tendencias son una parte de nuestra naturaleza y por la que
@@ -167,7 +177,7 @@
       <div>
         <section id="eventos">
           <div class="wow slideInUp slow">
-            <h1 class="text-center"><i class="fas fa-calendar-day"></i> Nuestros Eventos</h1>
+            <h1 class="text-center font-weight-bold"><i class="fas fa-calendar-day"></i> Nuestros Eventos</h1>
             <p class="white-text w-responsive mx-auto text-justify">
               Te invitamos a disfrutar de toda aquella música que fue parte de tu juventud. No faltes a esta cita con
               los éxitos que ya conoces, entérate sobre cada uno de nuestros eventos y no te pierdas de la próxima
@@ -211,7 +221,8 @@
                       <img class="card-img-top" src="./img/FIESTA-ROCK.jpg" alt="Fiesta Rock 70s y 80s">
                       <div class="card-body">
                         <h4 class="card-title">Fiesta Rock 70s & 80s</h4>
-                        <p class="card-text">Disfruta los éxitos de artistas y grupos destacados del rock-pop, disco, new wave, hard rock y más, en una noche memorable con las mezclas de DJ Elvis y DJ Rafo.</p>
+                        <p class="card-text">Disfruta los éxitos de artistas y grupos destacados del rock-pop, disco,
+                          new wave, hard rock y más, en una noche memorable con las mezclas de DJ Elvis y DJ Rafo.</p>
                       </div>
                     </div>
                   </div>
@@ -257,7 +268,7 @@
 
                   <div class="col-md-4">
                     <div class="card mb-2">
-                      <img class="card-img-top" src="./img/EVENTOS3.jpg" alt="Próximos Eventos">
+                      <a href="https://www.facebook.com/JazviPub/" target="_blank"><img class="card-img-top" src="./img/EVENTOS3.jpg" alt="Próximos Eventos"></a>
                     </div>
                   </div>
                 </div>
@@ -273,7 +284,7 @@
 
         <section id="galeria">
           <div class="wow slideInUp slow mb-2">
-            <h1 class="text-center"><i class="fas fa-camera-retro"></i> Galería</h1>
+            <h1 class="text-center font-weight-bold"><i class="fas fa-camera-retro"></i> Galería</h1>
           </div>
 
           <!-- GALERIA CON ZOOM -->
@@ -407,25 +418,24 @@
       <!-- ubicanos -->
       <section id="ubicanos">
         <!-- maps -->
-        <h3 class="h1-responsive font-weight-bold"><strong>Ubícanos</strong></h3>
+        <h1 class="text-center font-weight-bold"><i class="fas fa-location-arrow"></i><strong> Ubícanos</strong></h1>
         <div class="row justify-content-center">
           <div class="col-md-6 col-xl-6 mb-2 wow slideInUp">
             <div class="list-group mb-2 mt-2">
               <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
-                  <h3 class="cardtitle mb-1"><strong>Dirección</strong></h3>
+                  <h3 class="cardtitle mb-1 font-weight-bold"><strong>Dirección:</strong></h3>
                 </div>
                 <p class="mb-1">
-                  Prolongación Av. Mariscal Castilla 2006, Paucarpata
+                  Prolongación Av. Mariscal Castilla 2006, Paucarpata, Arequipa.
                   Referencia: Pasando 2 cuadras del Puente Santa Rosa
                 </p>
-                <small>Arequipa</small>
               </a>
             </div>
             <div class="list-group">
               <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
-                  <h3 class="cardtitle mb-1">Horario de Atención</h3>
+                  <h3 class="cardtitle mb-1 font-weight-bold"><strong>Horario de Atención:</strong></h3>
                 </div>
                 <p class="mb-1">
                   Viernes, Sábados y Domingos desde las 6 P.M.
@@ -502,9 +512,9 @@
             <!-- Material form login -->
           </div>
 
-          <div class="px-lg-4 col-md-6 mb-1 wow slideInUp">
+          <div class="facebo px-lg-4 col-md-6 mb-1 wow slideInUp">
             <div class="fb-page" data-href="https://www.facebook.com/JazviPub/" data-tabs="timeline, events"
-              data-width="400" data-small-header="false" data-hide-cover="false" data-show-facepile="false">
+              data-small-header="false" data-hide-cover="false" data-show-facepile="false">
               <blockquote cite="https://www.facebook.com/JazviPub/" class="fb-xfbml-parse-ignore"><a
                   href="https://www.facebook.com/JazviPub/">Jazvi Pub</a></blockquote>
             </div>
