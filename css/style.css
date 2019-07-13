@@ -1,9 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+nav ul{
+  padding: 0;
+  display: flex;
+  list-style: none;
+  float: right;
 
+}
+nav ul li {
+
+  /* width: 100%;
+  list-style: none;
+  float: right; */
+ list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav ul li :hover{
+  background-color: #800a7a8f;
+  transition: 0.7s;
+  width: 100%;
+}
+
+@media only screen and (max-width: 500px){
+
+.subheading,h2 {
+ font-size: 1em;
+}
+.facebo{
+  width:100%;
+}
+
+}
 @media (min-width: 768px) {
   .carousel-item .col-lg-3 {
   float: left;
   width: 25%;
-  max-width: 100%; } }
+  max-width: 100%; } 
+  header{
+    width: 25%;
+  max-width: 100%; 
+  }
+  .facebo{
+    max-width:400px;
+  }
+  nav ul {
+    flex-direction: column;
+    display: none;
+  }
+  .navbar .navbar-collapse {
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    float:none;
+  }
+}
+
   
   .carousel-item .card img {
   border-radius: 2px; }
@@ -13,13 +81,16 @@
 }
 .navbar {
   background: linear-gradient(40deg, rgba(0, 0, 0, 0.3), rgba(84, 1, 139, 0.3));
+  
 }
 .navbar:not(.top-nav-collapse) {
   background: transparent;
+  text-align: center;
 }
 .navbar .navbar-brand img {
   height: 40px;
   margin: 10px;
+  text-align: center;
 }
 .hm-gradient {
   background: linear-gradient(40deg, rgba(0, 0, 0, 0.3), rgba(84, 1, 139, 0.3));
@@ -64,21 +135,37 @@
 
 }
 body{
-  background-color: #111111
+  background-color: #111111;
+  
 }
 .bienvenidos{
   background: #800a7a; 
   background: -webkit-linear-gradient(to right, #061161, #800a7a);  
   background: linear-gradient(to right, #061161, #800a7a); 
+  margin-top: 20%;
   margin-bottom: 2rem;
   padding: 1%;
 }
 
+header{
+  background-image: url('./../img/fondointro.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 700px;
+  /* Set up positioning */
+  background-position: center;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+h1{
+  color: white;
+}
 #introJazvi{
-  background: #800a7a; 
-  background: -webkit-linear-gradient(to right, #061161, #800a7a);  
-  background: linear-gradient(to right, #061161, #800a7a); 
-  margin-bottom: 2rem;
+  margin-top: 10%;
   padding: 1%;
 }
 
@@ -98,8 +185,8 @@ body{
   margin-top: 10%;
 }
 .cardtitle{
-  border-bottom: 3px solid #c788db;
-  color: #7b2399;
+  border-bottom: 3px solid #bf0fcf;
+  color: #7a56fa;
   align-content: center;
 }
 #galeria{
@@ -110,6 +197,7 @@ body{
   background: #800a7a;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #061161, #800a7a);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #061161, #800a7a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-bottom: 2rem;
 }
 #ubicanos{
   color: white;
@@ -120,7 +208,7 @@ body{
   padding: 2%;
 }
 .list-group-item{
-background-color: rgba(34, 27, 143, 0.3);
+background-color: rgba(174, 51, 185, 0.3);
 padding: 2%;
 color: white;
 }
@@ -129,7 +217,7 @@ color: white;
   background: #800a7a;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #061161, #800a7a);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #061161, #800a7a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  padding: 10%;
+  padding-top: 10%;
 }
 .cardContacto{
   background-image: url('./../img/cassette4.jpg');
